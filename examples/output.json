@@ -1,0 +1,44 @@
+{
+  "perception/both/54024003": {
+    "question": "Which species and vocalization type does the provided recording most likely represent?",
+    "choice": [
+      "A. Long-Finned Pilot Whale (Globicephala melaena) - Clicks and whistles",
+      "B. Humpback Whale (Megaptera novaeangliae) - Long, melodic moans",
+      "C. Bottlenose Dolphin (Tursiops truncatus) - High-frequency whistles without clicks",
+      "D. Sperm Whale (Physeter macrocephalus) - Loud, rhythmic click patterns"
+    ],
+    "answer": "A. Long-Finned Pilot Whale (Globicephala melaena) - Clicks and whistles",
+    "response": "The recording sounds like high-frequency whistles without clear click patterns. This best aligns with Bottlenose Dolphin vocalizations.\n\nAnswer: C",
+    "extracted_answer": "C. Bottlenose Dolphin (Tursiops truncatus) - High-frequency whistles without clicks",
+    "correct": false,
+    "explanation": "The submitted answer's final answer is 'C', which corresponds to 'Bottlenose Dolphin (Tursiops truncatus) - High-frequency whistles without clicks'. The ground-truth answer is 'A', which corresponds to 'Long-Finned Pilot Whale (Globicephala melaena) - Clicks and whistles'. Since the submitted answer's final answer 'C' does not match the ground-truth answer 'A', the submitted answer is incorrect."
+  },
+  "cognition/analyze_acoustics/54024001_6107200R": {
+    "question": "How do the acoustic characteristics change throughout the audio recording?",
+    "choice": [
+      "A. The vocal sequence starts with broadband noise across a wide frequency range and is followed by a series of high-pitched modulating tones primarily above 10 kHz.",
+      "B. The audio begins with broadband noise across a wide frequency range and continues as a continuous low-frequency tone below 500 Hz.",
+      "C. The clip starts with a series of modulated mid-frequency tones primarily between 2\u20135 kHz and then moves into a series of high-pitched modulating tones primarily above 10 kHz.",
+      "D. The audio opens with a series of modulated mid-frequency tones primarily between 2\u20135 kHz then turning into a continuous low-frequency tone below 500 Hz."
+    ],
+    "answer": "C. The clip starts with a series of modulated mid-frequency tones primarily between 2\u20135 kHz and then moves into a series of high-pitched modulating tones primarily above 10 kHz.",
+    "response": "The audio recording starts with a series of modulated mid-frequency tones primarily between 2\u20135 kHz. Then it turns into a continuous low-frequency tone below 500 Hz.\nAnswer: D",
+    "extracted_answer": "D. The audio opens with a series of modulated mid-frequency tones primarily between 2\u20135 kHz then turning into a continuous low-frequency tone below 500 Hz.",
+    "correct": false,
+    "explanation": "The submitted answer's final answer is 'D', which corresponds to: 'The audio opens with a series of modulated mid-frequency tones primarily between 2\u20135 kHz then turning into a continuous low-frequency tone below 500 Hz.' The ground-truth answer is 'C', which states: 'The clip starts with a series of modulated mid-frequency tones primarily between 2\u20135 kHz and then moves into a series of high-pitched modulating tones primarily above 10 kHz.' Since the submitted answer's final answer 'D' does not match the ground-truth answer 'C', the submitted answer is incorrect."
+  },
+  "distractor/analyze_acoustics/54024001_9101204M": {
+    "question": "How do the acoustic characteristics change throughout the audio recording?",
+    "choice": [
+      "A. The audio opens with rapid broadband impulses without prominent tonal components and transitions into broadband noise without tonal components.",
+      "B. The vocal sequence starts with rapid broadband impulses without prominent tonal components and develops into high-pitched modulating tones primarily above 9 kHz, accompanied by noise.",
+      "C. The audio initiates with a series of modulated mid-to-high pitched tones primarily between 2\u20138 kHz and then shifts to high-pitched modulating tones primarily above 9 kHz, accompanied by noise.",
+      "D. The vocalization begins with a series of modulated mid-to-high pitched tones primarily between 2\u20138 kHz later shifts to broadband noise without tonal components."
+    ],
+    "answer": "D. The vocalization begins with a series of modulated mid-to-high pitched tones primarily between 2\u20138 kHz later shifts to broadband noise without tonal components.",
+    "response": "Based on the provided audio, I hear modulated tones between 2-8 kHz which later shifts to high pitched tones above 9 kHz along with broadband noise.\n\nAnswer: C",
+    "extracted_answer": "C",
+    "correct": false,
+    "explanation": "The submitted answer's final answer is 'C'. The choice text for C is: 'The audio initiates with a series of modulated mid-to-high pitched tones primarily between 2\u20138 kHz and then shifts to high-pitched modulating tones primarily above 9 kHz, accompanied by noise.' The ground-truth answer is 'D', which states: 'The vocalization begins with a series of modulated mid-to-high pitched tones primarily between 2\u20138 kHz later shifts to broadband noise without tonal components.' Comparing the two, the submitted answer indicates a shift to high-pitched modulating tones above 9 kHz with noise, whereas the ground truth indicates a shift to broadband noise without tonal components. These are different descriptions of the acoustic change. Therefore, the submitted answer is not correct."
+  }
+}

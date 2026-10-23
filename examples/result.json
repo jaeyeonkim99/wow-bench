@@ -1,0 +1,132 @@
+{
+  "total": {
+    "accuracy": 0.36015756893640966,
+    "num_correct": 640,
+    "num_questions": 1777
+  },
+  "perception_total": {
+    "accuracy": 0.27364864864864863,
+    "num_correct": 81,
+    "num_questions": 296
+  },
+  "perception/species": {
+    "accuracy": 0.18181818181818182,
+    "num_correct": 18,
+    "num_questions": 99
+  },
+  "perception/vocalization": {
+    "accuracy": 0.4639175257731959,
+    "num_correct": 45,
+    "num_questions": 97
+  },
+  "perception/both": {
+    "accuracy": 0.18,
+    "num_correct": 18,
+    "num_questions": 100
+  },
+  "non_distractor_total": {
+    "accuracy": 0.384419983065199,
+    "num_correct": 454,
+    "num_questions": 1181
+  },
+  "non_distractor/remember": {
+    "accuracy": 0.54,
+    "num_correct": 108,
+    "num_questions": 200
+  },
+  "non_distractor/understand": {
+    "accuracy": 0.4842105263157895,
+    "num_correct": 92,
+    "num_questions": 190
+  },
+  "non_distractor/apply_frequency": {
+    "accuracy": 0.355,
+    "num_correct": 71,
+    "num_questions": 200
+  },
+  "non_distractor/apply_duration": {
+    "accuracy": 0.14,
+    "num_correct": 28,
+    "num_questions": 200
+  },
+  "non_distractor/analyze_acoustics": {
+    "accuracy": 0.345,
+    "num_correct": 69,
+    "num_questions": 200
+  },
+  "non_distractor/analyze_vocalization": {
+    "accuracy": 0.450261780104712,
+    "num_correct": 86,
+    "num_questions": 191
+  },
+  "distractor_total": {
+    "accuracy": 0.35,
+    "num_correct": 105,
+    "num_questions": 300
+  },
+  "distractor/remember": {
+    "accuracy": 0.02,
+    "num_correct": 1,
+    "num_questions": 50
+  },
+  "distractor/understand": {
+    "accuracy": 0.3,
+    "num_correct": 15,
+    "num_questions": 50
+  },
+  "distractor/apply_frequency": {
+    "accuracy": 0.7,
+    "num_correct": 35,
+    "num_questions": 50
+  },
+  "distractor/apply_duration": {
+    "accuracy": 0.76,
+    "num_correct": 38,
+    "num_questions": 50
+  },
+  "distractor/analyze_acoustics": {
+    "accuracy": 0.28,
+    "num_correct": 14,
+    "num_questions": 50
+  },
+  "distractor/analyze_vocalization": {
+    "accuracy": 0.04,
+    "num_correct": 2,
+    "num_questions": 50
+  },
+  "cognition/remember": {
+    "accuracy": 0.436,
+    "num_correct": 109,
+    "num_questions": 250
+  },
+  "cognition/understand": {
+    "accuracy": 0.44583333333333336,
+    "num_correct": 107,
+    "num_questions": 240
+  },
+  "cognition/apply_frequency": {
+    "accuracy": 0.424,
+    "num_correct": 106,
+    "num_questions": 250
+  },
+  "cognition/apply_duration": {
+    "accuracy": 0.264,
+    "num_correct": 66,
+    "num_questions": 250
+  },
+  "cognition/analyze_acoustics": {
+    "accuracy": 0.332,
+    "num_correct": 83,
+    "num_questions": 250
+  },
+  "cognition/analyze_vocalization": {
+    "accuracy": 0.3651452282157676,
+    "num_correct": 88,
+    "num_questions": 241
+  },
+  "cognition_total": {
+    "accuracy": 0.37744767049291017,
+    "num_correct": 559,
+    "num_questions": 1481
+  }
+}

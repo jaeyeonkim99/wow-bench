@@ -1,0 +1,3 @@
+tqdm
+openai
+huggingface_hub>=0.34
